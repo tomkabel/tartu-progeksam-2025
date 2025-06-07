@@ -1,13 +1,6 @@
 # Tartu Programmeerimise Eksam 2025 (progeksam)
 
-(This repository contains questions and solutions for the 2025 University of Tartu Programming (Python) Entrance Exam.
-
-## Contents
-
-*   **`questions/`:** Exam questions in Markdown (.md) format.
-    
-*   **`solutions/`:** Python (.py) code solutions for the exam problems.
-    
+(This repository contains an exam participants take on the exam tasks, and only one of many solutions for the 2025 University of Tartu Programming (Python) Entrance Exam.
 
 ## Purpose
 
