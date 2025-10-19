@@ -1,12 +1,25 @@
-# Tartu Programmeerimise Eksam 2025 (progeksam)
+# 🎓 Tartu Programmeerimise Eksam 2025 (progeksam)
 
-# Avutiosa
+See repositoorium sisaldab **2025. aasta Tartu Ülikooli programmeerimise eksami arvutiosa** ülesandeid. Ülesanded on mõeldud testimaks baasteadmisi Pythoni programmeerimiskeeles, sealhulgas failide lugemist, funktsioonide loomist, andmestruktuuride (sõnastikud, järjendid) kasutamist ja sisendi-väljundi haldamist.
+
+---
+
+## 🚀 Kuidas alustada?
+
+1.  **Klooni repositoorium** oma arvutisse.
+2.  **Loo vajalikud failid**: `tellimused.txt` ja `punktid.txt`. Lisa neisse näidissisu, et oma lahendusi testida.
+3.  **Lülita sisse Thonny logimine** (Tools → Options... → Log program usage events), kui täidad eksamit originaalkeskkonnas.
+4.  **Lahenda ülesanded**, luues näiteks eraldi Pythoni failid iga ülesande jaoks (nt `ylesanne1.py`, `ylesanne2.py`).
+
+---
+
+# 🖥️ Arvutiosa
 
 
 
 ---
 
-## Olulised juhised enne alustamist:
+## Olulised juhised enne alustamist (vaid eksamiks):
 
 1.  Enne ülesannete lahendamist **lülita sisse Thonny logimine** (Tools → Options... → Log program usage events).
 2.  **Sulge Thonny** ning käivita uuesti.
@@ -54,7 +67,7 @@ Koosta funktsioon `arvuta_päevahind`, mille argumentideks on tellimuste arv pä
 6.9
 ```
 
-####  Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Ujuvpunktitäpsus:** Otsene võrdlemine või akumuleerimine ujukomaarvudega võib viia ootamatute tulemusteni, kuna arvutid salvestavad ujukomaarvu. Nõue `ound()` kahe kümnendkohani leevendab seda probleemi, kuid otseseid võrdlusi (nt ‚kui hind == 5.0‘) tuleks vältida või käsitleda ettevaatlikult.
 * **Kõrvaljuhud:** Kuigi reegel `3 või rohkem` on selge, tuleb tagada, et loogika käitleb õigesti `tellimuste_arv` väärtusi, mis on täpselt 3, ja ka äärmuslikke juhtumeid nagu 0 või negatiivsed väärtused (kuigi tavaliselt ei eeldata neid selles kontekstis, arvestab kaitsev programmeerimine neid).
@@ -87,7 +100,7 @@ Kokku kulus raha 21.9 eurot.
 Eelarve läks lõhki!
 ```
 
-####  Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Lollikindel faili I/O:**
 
@@ -140,7 +153,7 @@ Kirjuta funktsioon `loe_tulemused`, mis võtab argumendiks faili nime (`str`) ja
 {'Mari': [35, 50], 'Juku': [30, 30], 'Kati': [38, 54]}
 ```
 
-#### Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Lollikindel failitöötlemine:**
 
@@ -198,7 +211,7 @@ Tulemus muudetud!
 {'Mari': [38, 50], 'Juku': [30, 30], 'Kati': [38, 54]}
 ```
 
-####  Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Punktide sisestamise valideerimine:** Sarnaselt eelmisele ülesandele, kui kasutaja sisestab punktide väärtused, mis ei ole täisarvulised, siis `int(input())` põhjustab `ValueError`. Hea tava on `try-except` kasutamine koos tsükliga, et tagada kehtiv täisarvuline sisend.
 
@@ -231,7 +244,7 @@ Koosta funktsioon `leia_punktisumma`, mis võtab argumentideks sõnastiku ja ini
 Nime ei leitud
 ```
 
-####  Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Mitteolemasolevate võtmete käsitlemine (KeyError):**
 
@@ -265,7 +278,7 @@ Mari 85
 Kati 92
 ```
 
-#### Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Korrektne funktsioonide korduvkasutamine:**
 
@@ -348,7 +361,7 @@ Sisesta valik: **5**
 Fail salvestatud! Programm lõpetas töö.
 ```
 
-####  Huviorbiiti sattuvad tegelased:
+### 🤔 Huviorbiiti sattuvad tegelased
 
 * **Peamise Tsükli Loogika:**
 
